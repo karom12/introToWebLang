@@ -5,11 +5,16 @@
 <button id="my-button">Click Me</button>
 
 <script>
+  // Creates the variables that the user will interact and input
+  // One for a button and the name the user inputs
   var myButton = document.querySelector('#my-button');
   var nameInput = document.querySelector('#name-input');
-
+  /*The function creates the response 
+  where the the user presses the button*/
   myButton.addEventListener('click', function () {
+    // if for the function to respond to the user input
     if (nameInput.value !== '') {
+    //responds with the alert Hello userinput
       alert('Hello ' + nameInput.value);
     }
   });
