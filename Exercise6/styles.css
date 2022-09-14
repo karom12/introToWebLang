@@ -1,6 +1,10 @@
 #main-title{
     text-align: center;
 }
+body{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+}
 .content{
-    margin:12px;
+    margin-bottom:12px;
 }
